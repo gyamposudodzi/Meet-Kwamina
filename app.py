@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for
 from flask_sqlalchemy import SQLAlchemy
 from models import User, UserInteraction
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder="templates", static_folder="templates\static")
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///kwamina.db'
 db = SQLAlchemy(app)
 
