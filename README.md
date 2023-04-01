@@ -1,2 +1,2 @@
-# Meet-Kwamina-
+# Meet-Kwamina
 Your Study Partner
