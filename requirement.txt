@@ -1,0 +1,5 @@
+Python 3.7 or later: Make sure that you have Python installed on your machine. You can download the latest version of Python from the official website.
+Flask: Flask is a Python web framework, used for building web applications. Install Flask using the following command: pip install flask
+OpenAI API key: You need to have an API key to use the OpenAI API. You can create an account on OpenAI's website and get an API key for free.
+SQLite: SQLite is a database management system. You need to install SQLite on your machine to run the application. Alternatively, you can use any other database management system, like MySQL or PostgreSQL.
+Once you have all the required software installed, you can clone the repository and run the application.
