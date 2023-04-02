@@ -1,17 +1,22 @@
 body {
-    background-color: #f2f2f2;
     font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    
 }
 
 .container {
     margin: 50px auto;
     padding: 20px;
+    background-size: 100%;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     width: 500px;
 }
 
+h1 .name{
+    font-size: 500px
+}
 h1 {
     text-align: center;
     margin-top: 0;
@@ -27,6 +32,7 @@ label {
     margin-top: 20px;
     font-size: 18px;
     font-weight: bold;
+ 
 }
 
 input {
@@ -35,6 +41,7 @@ input {
     border: none;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    
 }
 
 button {
@@ -48,3 +55,4 @@ button {
     margin-top: 20px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
+

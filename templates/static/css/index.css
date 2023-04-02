@@ -23,7 +23,6 @@ body {
     
   }
   .chat-input button {
-    display: block;
     height: 50%;
     margin: 10px;
     margin-left: 1%;
