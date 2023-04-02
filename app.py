@@ -38,7 +38,7 @@ def index():
 @app.route('/index', methods=['GET','POST'])
 def get_response():
     message = request.form['message']
-    openai.api_key = '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'
+    openai.api_key = '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'
     model_engine = "text-davinci-003"
     prompt = message
      # Generate a response
